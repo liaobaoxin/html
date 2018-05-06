@@ -1,0 +1,158 @@
+body {
+    background-color: #fafafa;
+}
+
+/*初始化*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/*顶部导航栏开始*/
+.heard {
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.inner {
+    width: 1200px;
+    margin: auto;
+    height: 100px;
+    line-height: 100px;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    width: 600px;
+    float: right;
+}
+
+.nav li a {
+    text-decoration: none;
+    float: left;
+    font: 14px/100px "Microsoft YaHei";
+    margin-right:40px;
+    color: #333333;
+}
+
+.nav li a:hover {
+    color: #2288f6;
+}
+/*顶部导航栏结束*/
+
+/*banner start*/
+.banner{
+    height: 620px;
+    background:url(../images/banner.jpg) no-repeat top center;
+}
+/*banner end*/
+
+/*我们的服务开始*/
+.service{
+    width: 1055px;
+    height: 800px;
+    /*background-color: pink;*/
+    margin: auto;
+}
+.service-heard{
+    border-top: 1px solid #cccccc;
+    margin: 74px 30px 0px 30px;
+}
+.service-heard h4{
+    width: 167px;
+    height: 46px;
+    margin: -20px auto 0px;
+}
+.service-heard p{
+    font-size: 10px;
+    width: 845px;
+    color: #666;
+    text-align: center;
+    margin: 28px auto 0px;
+    line-height:25px;
+}
+.service-body{
+    margin-top:50px;
+}
+.service-body .one{
+    width: 319px;
+    height: 510px;
+    float: left;
+    border: 1px solid #e7e8e9;
+    background-color: #fff;
+}
+.service-body .one img{
+    width: 248px;
+    height: 130px;
+    margin: 41px 36px 0px;
+}
+
+.service-body .one h4{
+    font-size: 18px;
+    font-family:"Microsoft YaHei ";
+    text-align: center;
+    margin-top: 45px;
+    color: #333333;
+
+}
+
+.service-body .one .text{
+    width: 234px;
+    height: 112px;
+    margin: 17px 42px 0px;
+    line-height:25px;
+    font-size: 11px;
+    color: #666666;
+}
+
+.service-body .one .footer{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 3px solid #ff9412;
+    margin: 39px auto 0px;
+    padding-top:9px;
+    text-align: center;
+}
+
+
+.service-body .one .footer:hover{
+    background-color:#ff9412;
+    color: white;
+}
+
+.service-body .two{
+    width: 319px;
+    height: 510px;
+    margin: 0px 46px;
+    float: left;
+    border: 1px solid #e7e8e9;
+}
+
+.service-body .two img{
+    width: 248px;
+    height: 130px;
+    margin: 41px 36px 0px;
+}
+
+.service-body .three{
+    width: 319px;
+    height: 510px;
+    float: left;
+    border: 1px solid #e7e8e9;
+}
+
+.service-body .three img{
+    width: 248px;
+    height: 130px;
+    margin: 41px 36px 0px;
+}
+
+/*我们的服务结束*/
