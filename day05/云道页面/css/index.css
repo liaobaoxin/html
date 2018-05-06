@@ -108,22 +108,26 @@ ul {
     height: 112px;
     margin: 17px 42px 0px;
     line-height:25px;
-    font-size: 11px;
+    font-size: 12px;
     color: #666666;
 }
 
-.service-body .one .footer{
+.service-body .one a{
     width: 150px;
     height: 35px;
     border-radius: 10px;
     border: 3px solid #ff9412;
     margin: 39px auto 0px;
-    padding-top:9px;
+    line-height:35px;
     text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #ff9412;
+
 }
 
 
-.service-body .one .footer:hover{
+.service-body .one a:hover{
     background-color:#ff9412;
     color: white;
 }
@@ -142,6 +146,44 @@ ul {
     margin: 41px 36px 0px;
 }
 
+
+.service-body .two h4{
+    font-size: 18px;
+    font-family:"Microsoft YaHei ";
+    text-align: center;
+    margin-top: 45px;
+    color: #333333;
+
+}
+
+.service-body .two .text{
+    width: 234px;
+    height: 112px;
+    margin: 17px 42px 0px;
+    line-height:25px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.service-body .two a{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 3px solid #ff9412;
+    margin: 39px auto 0px;
+    line-height:35px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #ff9412;
+
+}
+
+.service-body .two a:hover{
+    background-color:#ff9412;
+    color: white;
+}
+
 .service-body .three{
     width: 319px;
     height: 510px;
@@ -153,6 +195,44 @@ ul {
     width: 248px;
     height: 130px;
     margin: 41px 36px 0px;
+}
+
+
+.service-body .three h4{
+    font-size: 18px;
+    font-family:"Microsoft YaHei ";
+    text-align: center;
+    margin-top: 45px;
+    color: #333333;
+
+}
+
+.service-body .three .text{
+    width: 234px;
+    height: 112px;
+    margin: 17px 42px 0px;
+    line-height:25px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.service-body .three a{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 3px solid #ff9412;
+    margin: 39px auto 0px;
+    line-height:35px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #ff9412;
+
+}
+
+.service-body .three a:hover{
+    background-color:#ff9412;
+    color: white;
 }
 
 /*我们的服务结束*/
