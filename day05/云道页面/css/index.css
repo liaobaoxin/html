@@ -1,8 +1,10 @@
+@charset "UTF-8";
 body {
     background-color: #fafafa;
+    height: 5000px;
 }
 
-/*≥ı ºªØ*/
+/*ÂàùÂßãÂåñ*/
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +14,7 @@ ul {
     list-style: none;
 }
 
-/*∂•≤øµº∫Ω¿∏ø™ º*/
+/*È°∂ÈÉ®ÂØºËà™Ê†èÂºÄÂßã*/
 .heard {
     height: 100px;
     background-color: #ffffff;
@@ -38,87 +40,94 @@ ul {
     text-decoration: none;
     float: left;
     font: 14px/100px "Microsoft YaHei";
-    margin-right:40px;
+    margin-right: 40px;
     color: #333333;
 }
 
 .nav li a:hover {
     color: #2288f6;
 }
-/*∂•≤øµº∫Ω¿∏Ω· ¯*/
+
+/*È°∂ÈÉ®ÂØºËà™Ê†èÁªìÊùü*/
 
 /*banner start*/
-.banner{
+.banner {
     height: 620px;
-    background:url(../images/banner.jpg) no-repeat top center;
+    background: url(../images/banner.jpg) no-repeat top center;
 }
+
 /*banner end*/
 
-/*Œ“√«µƒ∑˛ŒÒø™ º*/
-.service{
+/*Êàë‰ª¨ÁöÑÊúçÂä°ÂºÄÂßã*/
+.service, .case .service-heard {
     width: 1055px;
-    height: 800px;
-    /*background-color: pink;*/
     margin: auto;
 }
-.service-heard{
+
+.service-heard, .media-heard {
     border-top: 1px solid #cccccc;
     margin: 74px 30px 0px 30px;
 }
-.service-heard h4{
+
+.service-heard h4, .media-heard h4 {
     width: 167px;
     height: 46px;
     margin: -20px auto 0px;
 }
-.service-heard p{
+
+.service-heard p {
     font-size: 10px;
     width: 845px;
     color: #666;
     text-align: center;
     margin: 28px auto 0px;
-    line-height:25px;
+    line-height: 25px;
 }
-.service-body{
-    margin-top:50px;
+
+.service-body {
+    margin-top: 50px;
+    overflow: hidden;
 }
-.service-body .one{
+
+.service-body .one {
     width: 319px;
     height: 510px;
     float: left;
     border: 1px solid #e7e8e9;
     background-color: #fff;
 }
-.service-body .one img{
+
+.service-body .one img {
     width: 248px;
     height: 130px;
     margin: 41px 36px 0px;
 }
 
-.service-body .one h4{
+.service-body .one h4 {
     font-size: 18px;
-    font-family:"Microsoft YaHei ";
+    font-family: "Microsoft YaHei ";
     text-align: center;
     margin-top: 45px;
     color: #333333;
 
 }
 
-.service-body .one .text{
+.service-body .one .text {
     width: 234px;
     height: 112px;
     margin: 17px 42px 0px;
-    line-height:25px;
+    line-height: 25px;
     font-size: 12px;
     color: #666666;
 }
 
-.service-body .one a{
+.service-body .one a {
     width: 150px;
     height: 35px;
     border-radius: 10px;
     border: 3px solid #ff9412;
     margin: 39px auto 0px;
-    line-height:35px;
+    line-height: 35px;
     text-align: center;
     display: block;
     text-decoration: none;
@@ -126,52 +135,51 @@ ul {
 
 }
 
-
-.service-body .one a:hover{
-    background-color:#ff9412;
+.service-body .one a:hover {
+    background-color: #ff9412;
     color: white;
 }
 
-.service-body .two{
+.service-body .two {
     width: 319px;
     height: 510px;
     margin: 0px 46px;
     float: left;
     border: 1px solid #e7e8e9;
+    background-color: #fff;
 }
 
-.service-body .two img{
+.service-body .two img {
     width: 248px;
     height: 130px;
     margin: 41px 36px 0px;
 }
 
-
-.service-body .two h4{
+.service-body .two h4 {
     font-size: 18px;
-    font-family:"Microsoft YaHei ";
+    font-family: "Microsoft YaHei ";
     text-align: center;
     margin-top: 45px;
     color: #333333;
 
 }
 
-.service-body .two .text{
+.service-body .two .text {
     width: 234px;
     height: 112px;
     margin: 17px 42px 0px;
-    line-height:25px;
+    line-height: 25px;
     font-size: 12px;
     color: #666666;
 }
 
-.service-body .two a{
+.service-body .two a {
     width: 150px;
     height: 35px;
     border-radius: 10px;
     border: 3px solid #ff9412;
     margin: 39px auto 0px;
-    line-height:35px;
+    line-height: 35px;
     text-align: center;
     display: block;
     text-decoration: none;
@@ -179,60 +187,155 @@ ul {
 
 }
 
-.service-body .two a:hover{
-    background-color:#ff9412;
+.service-body .two a:hover {
+    background-color: #ff9412;
     color: white;
 }
 
-.service-body .three{
+.service-body .three {
     width: 319px;
     height: 510px;
     float: left;
     border: 1px solid #e7e8e9;
+    background-color: #fff;
 }
 
-.service-body .three img{
+.service-body .three img {
     width: 248px;
     height: 130px;
     margin: 41px 36px 0px;
 }
 
-
-.service-body .three h4{
+.service-body .three h4 {
     font-size: 18px;
-    font-family:"Microsoft YaHei ";
+    font-family: "Microsoft YaHei ";
     text-align: center;
     margin-top: 45px;
     color: #333333;
 
 }
 
-.service-body .three .text{
+.service-body .three .text {
     width: 234px;
     height: 112px;
     margin: 17px 42px 0px;
-    line-height:25px;
+    line-height: 25px;
     font-size: 12px;
     color: #666666;
 }
 
-.service-body .three a{
+.service-body .three a {
     width: 150px;
     height: 35px;
     border-radius: 10px;
     border: 3px solid #ff9412;
     margin: 39px auto 0px;
-    line-height:35px;
+    line-height: 35px;
     text-align: center;
     display: block;
     text-decoration: none;
     color: #ff9412;
+    overflow: hidden;
 
 }
 
-.service-body .three a:hover{
-    background-color:#ff9412;
+.service-body .three a:hover {
+    background-color: #ff9412;
+    color: white;
+
+}
+
+/*Êàë‰ª¨ÁöÑÊúçÂä°ÁªìÊùü*/
+
+/*ÁªèÂÖ∏Ê°à‰æãÂºÄÂßã*/
+.case, .media {
+    width: 1055px;
+    margin: 105px auto 0px;
+}
+
+.case-body {
+    margin-top: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.case-body li {
+    width: 325px;
+    height: 210px;
+    background-color: pink;
+    float: left;
+}
+
+.middle {
+    margin: 0px 40px;
+}
+
+.case-body li {
+    background-color: rgba(0, 0, 0, .3);
+    position: relative;
+}
+
+.case-body .text {
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background: url("../images/fdj.png") rgba(0, 0, 0, .3) no-repeat center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.case-body a:hover .mask {
+    display: block;
+}
+
+.case-body .left {
+    display: block;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 78px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    left: -100px;
+    top: 50px;
+
+}
+
+.case-body .right {
+    display: block;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    background-color: rgba(0, 0, 0, .3);
+    right: -100px;
+    top: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 78px;
+    font-size: 25px;
+    text-decoration: none;
     color: white;
 }
 
-/*Œ“√«µƒ∑˛ŒÒΩ· ¯*/
+.case-body .left:hover, .case-body .right:hover {
+    background-color: #57a9ef;
+}
+
+/*ÁªèÂÖ∏Ê°à‰æãÁªìÊùü*/
