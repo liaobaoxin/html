@@ -163,6 +163,16 @@ ul {
     color: #333333;
 
 }
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom:1;
+}
 
 .service-body .two .text {
     width: 234px;
